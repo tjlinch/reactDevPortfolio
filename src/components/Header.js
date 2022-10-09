@@ -3,7 +3,7 @@ import React from 'react';
 export default function Header() {
     return (
         <header>
-            <h1>Tyler Linch Dev Portfolio</h1>
+            <h1>Header</h1>
         </header>
     );
 }
