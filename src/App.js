@@ -8,12 +8,35 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
+
+const styles = {
+    header: {
+        minHeight: 50,
+        backgroundColor: 'Blue',
+        display: 'flex',
+
+    },
+    content: {
+       minHeight: 500,
+       backgroundColor: 'grey',
+       display: 'flex',
+       justifyContent: 'center',
+    },
+    footer: {
+        backgroundColor: 'Green',
+        display: 'flex',
+        justifyContent: 'center',
+    }
+}
+
 export default function App() {
     return (
         <Router>
-            <div>
-               <Header />
-               <NavBar />
+            <div style={styles.header}>
+                <Header />
+                <NavBar />
+            </div>
+            <div style={styles.content}>
                 <Routes>
                     <Route
                         path='/'
@@ -28,7 +51,9 @@ export default function App() {
                         path='/resume'
                         element={ <Resume /> } />
                 </Routes>
-               <Footer />
+            </div>
+            <div style={styles.footer}>
+                <Footer />
             </div>
         </Router>
     );
