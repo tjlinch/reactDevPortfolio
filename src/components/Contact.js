@@ -1,4 +1,14 @@
-import React from 'react'
+import React from 'react';
+
+const styles = {
+    messageInput: {
+        width: '200%',
+        height: '200px',
+    },
+    submit: {
+        backgroundColor: 'red',
+    }
+}
 
 export default function Contact() {
   return (
@@ -15,9 +25,9 @@ export default function Contact() {
             </label><br></br>
             <label>
                 Message:
-                <input type='text' name='message' />
+                <input type='text' name='message' style={styles.messageInput} />
             </label><br></br>
-            <input type='submit' value='Submit' />
+            <input type='submit' value='Submit' style={styles.submit}/>
         </form>
     </div>
   );
