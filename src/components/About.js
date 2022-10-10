@@ -11,6 +11,7 @@ const styles = {
         height: '300px',
         width: '300px',
         borderRadius: '10px',
+        boxShadow: '5px 10px black',
     }
 }
 
@@ -25,7 +26,7 @@ export default function About() {
             <aside style={styles.asides}>
                 <p>Thanks for visiting my portfolio!</p>
                 <p>My name is Tyler Linch, and I am a software developer based out of Denver, Colorado.</p>
-                <p>I started coding in the summer of 2022, and in a few short months I have learned many front and back end technologies.</p>
+                <p>I started coding in the summer of 2022, and in a few short months I have learned many front and back end technologies, and I'm always looking to add more!</p>
                 <p>In this portfolio, you can view some of my recent projects. You can also find links to my resume, as well as my GitHub and LinkedIn profiles, and a section to contact me directly.</p>
             </aside>
         </div>
