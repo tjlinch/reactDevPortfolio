@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 const styles = {
     header: {
-        minHeight: 50,
+        minHeight: 80,
         backgroundColor: 'Blue',
         display: 'flex',
 
