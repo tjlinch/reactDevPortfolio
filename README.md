@@ -13,13 +13,15 @@ This new portfolio, built with react, will be used to display my projects and pr
 
 ## Deployed
 
-none
+https://tjlinch.github.io/reactDevPortfolio/
 
 ## Contributing
 
 Built with React
 
 ## Screenshots
+
+![Portfolio page screenshot](./assets/Screen%20Shot%202022-10-10%20at%209.01.11%20AM.png)
 
 ## Questions
 
